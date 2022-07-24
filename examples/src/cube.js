@@ -5,8 +5,8 @@ import {getMapsApiOptions, loadMapsApi} from '../jsm/load-maps-api';
 
 const VIEW_PARAMS = {
   center: {
-    lat: 53.554,
-    lng: 10.007
+    lat: -18.9339879,
+    lng: -48.2908856
   },
   tilt: 67.5,
   heading: 60,
