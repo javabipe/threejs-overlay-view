@@ -5,8 +5,8 @@ import {getMapsApiOptions, loadMapsApi} from '../jsm/load-maps-api';
 
 const VIEW_PARAMS = {
   center: {
-    lat: -18.9341346,
-    lng: -48.2886952
+    lat: -18.934096,
+    lng: -48.288711
   },
   tilt: 67.5,
   heading: 60,
@@ -23,7 +23,7 @@ async function main() {
 
   const scene = overlay.getScene();
   const cube = new Mesh(
-    new BoxGeometry(10, 10, 10),
+    new BoxGeometry(5, 5, 5),
     new MeshStandardMaterial({color: 0xff0000})
   );
 
