@@ -40,6 +40,7 @@ async function initMap() {
   return new google.maps.Map(document.querySelector('#map'), {
     mapId,
     disableDefaultUI: true,
+    clickableIcons: false,
     backgroundColor: 'transparent',
     gestureHandling: 'greedy',
     ...VIEW_PARAMS
