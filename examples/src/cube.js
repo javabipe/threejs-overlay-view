@@ -27,7 +27,7 @@ async function main() {
     new MeshStandardMaterial({color: 0xff0000})
   );
 
-  const cubeLocation = {...VIEW_PARAMS.center, altitude: 50};
+  const cubeLocation = {...VIEW_PARAMS.center, altitude: 0};
   overlay.latLngAltToVector3(cubeLocation, cube.position);
 
   scene.add(cube);
