@@ -23,7 +23,7 @@ async function main() {
 
   const scene = overlay.getScene();
   const cube = new Mesh(
-    new BoxGeometry(5, 5, 5),
+    new BoxGeometry(5, 20, 5),
     new MeshStandardMaterial({color: 0xff0000})
   );
 
